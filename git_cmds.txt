@@ -1,0 +1,35 @@
+touch file-name
+touch file1
+git status
+git add file1
+git status
+git commit -m "first commit" file1
+git status
+git log
+git show cid
+
+touch file4 file5 file6
+git status
+git add file4 file5 or
+git add . or
+git add * or 
+git add -A
+
+git status
+git commit -m "label" file1  (single file)
+git commit -m "label" 
+
+git add file1  (workspace to staging/index)
+git reset HEAD file  (staging/index to workspace)
+
+git commit -m "label"  (staging to local)
+git reset --soft cid   (local to staging)
+
+
+
+
+
+
+
+
+
